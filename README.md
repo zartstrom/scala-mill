@@ -11,20 +11,20 @@ This repository contains **Dockerfile** of [Scala](http://www.scala-lang.org) an
 ## Installation ##
 
 1. Install [Docker](https://www.docker.com)
-2. Pull [automated build](https://registry.hub.docker.com/u/nightscape/scala-mill) from public [Docker Hub Registry](https://registry.hub.docker.com):
+2. Pull [automated build](https://registry.hub.docker.com/u/zartstrom/scala-mill) from public [Docker Hub Registry](https://registry.hub.docker.com):
 ```
-docker pull nightscape/scala-mill
+docker pull zartstrom/scala-mill
 ```
 Alternatively, you can build an image from Dockerfile:
 ```
-docker build -t github.com/nightscape/scala-mill
+docker build -t github.com/zartstrom/scala-mill
 ```
 
 
 ## Usage ##
 
 ```
-docker run -it --rm nightscape/scala-mill
+docker run -it --rm zartstrom/scala-mill
 ```
 
 
